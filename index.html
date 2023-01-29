@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Freelancer portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-nav">
+                <a href="#!" class="logo">Kelvin</a>
+                <nav id="nav" class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a class="nav-link active-link" href="">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Contact</a>
+                        </li>
+                    </ul>
+                    <button id="nav-button" class="nav-button">
+                        <img id="nav-button-img" src="./assets/images/icons/nav-open.svg" alt="Nav button">
+                    </button>
+                </nav>
+            </div>
+            <div class="header-content" data-aos="fade-up">
+                <div class="header-content__text">
+                    <h1 class="header-content__title">
+                        Kelvin Kramer<br><span>Designer & Developer</spa>
+                    </h1>
+                    <p class="header-content__description" >
+                        I'm portrait, fashion and lifestyle photographer living In New York City. During my thirteen year tenure here.
+                    </p>
+                </div>
+                <div class="header-content__img" data-aos="fade-left">
+                    <picture>
+                        <source media="(max-width:700px)" srcset="./assets/images/header/hero-mobile.png">
+                        <img  src="./assets/images/header/hero.png" alt="Kelvin Kramer">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="services">
+            <div class="container">
+                <div class="services-row">
+                    <div class="services-card" data-aos="fade-down">
+                        <img class="service-card__image" src="./assets/images/services/01.svg" alt="UI/UX Design">
+                        <h3 class="service-card__title">UI/UX Design</h3>
+                        <p class="service-card__description">Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                    </div>
+                    <div class="services-card" data-aos="fade-down">
+                        <img class="service-card__image" src="./assets/images/services/02.svg" alt="Development">
+                        <h3 class="service-card__title">Development</h3>
+                        <p class="service-card__description">Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                    </div>
+                    <div class="services-card" data-aos="fade-down">
+                        <img class="service-card__image" src="./assets/images/services/03.svg" alt="software testing">
+                        <h3 class="service-card__title">software testing</h3>
+                        <p class="service-card__description">Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio">
+            <div class="container">
+                <h2 class="potrfolio__title title">Portfolio</h2>
+                <div class="project" data-aos="flip-up">
+                    <img src="./assets/images/portfolio/01.jpg" alt="Online fashion store - Homepage" class="project__image">
+                    <h3 class="project__title"> 
+                        <a href="#!" class="potfolio__link">Online fashion store - Homepage</a>
+                    </h3>
+                </div>
+                <div class="project" data-aos="flip-up">
+                    <img src="./assets/images/portfolio/02.jpg" alt="Reebok Store - Concept" class="project__image">
+                    <h3 class="project__title"> 
+                        <a href="#!" class="potfolio__link">Reebok Store - Concept</a>
+                    </h3>
+                </div>
+                <div class="project" data-aos="flip-up">
+                    <img src="./assets/images/portfolio/03.jpg" alt=" Braun Landing Page - Concept" class="project__image">
+                    <h3 class="project__title"> 
+                        <a href="#!" class="potfolio__link">Braun Landing Page - Concept</a>
+                    </h3>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="contacts">
+        <div class="container">
+            <h2 class="contacts-title title">Contacts</h2>
+            <div class="contacts__content" data-aos="fade-down">
+                <p class="contacts__text">Want to know more or just chat? <br>You are welcome!</p>
+                <div class="contacts__buttons" data-aos="fade-down">
+                    <button class="btn">Send message</button>
+                </div>
+                <div class="contacts__socials">
+                    <a href="#!" class="socials-icons"><img src="./assets/images/socials/LinkedIn.svg" alt="LinkedIn"></a>
+                    <a href="#!" class="socials-icons"><img src="./assets/images/socials/Instargam.svg" alt="Instargam"></a>
+                    <a href="#!" class="socials-icons"><img src="./assets/images/socials/Behance.svg" alt="Behance"></a>
+                    <a href="#!" class="socials-icons"><img src="./assets/images/socials/Dribble.svg" alt="Dribble"></a>
+                    
+                </div>
+                    <p class="contacts__footer" data-aos="fade-up">Like me on<br>LinkedIn, Instagram, Behance, Dribble</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
