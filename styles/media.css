@@ -29,7 +29,7 @@
     }
     .nav-button {
         z-index: 9;
-        position: fixed;
+        position: absolute;
         top: 46px;
         right: 30px;
     }
